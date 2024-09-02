@@ -1,0 +1,16 @@
+<h3 class="wow fadeInUp" data-wow-delay="0.3s>Young European Spirit ist Europaradikal. Wir sind der festen Überzeugung davon, dass wir nur als starkes Europa eine friedliche und Nachhaltige Zukunft gestalten können. Bist du das auch?</h3>
+
+<p class="wow fadeInUp" data-wow-delay="0.4s">
+	Als Europapartei stehen wir dafür, europäische Interessen vor nationale Interessen zu setzen.
+	Europäische Parteien gibt es als solches aber nicht – lediglich Parteifamilien unterschiedlicher
+	nationaler Parteien. Wir setzen uns dafür ein, echte europäische Parteien zu ermöglichen. Parteien,
+	die europaweit für EU-Gremien kandidieren können und die europäischen Interessen folgen, anstatt
+	nationaler. Bis dahin machen wir uns als nationale Partei mit Europaprogramm für unsere Vision der
+	EU stark. Und werben für Europäische Lösungen.
+
+	Europäische Politik. Selbstverständlich über Ländergrenzen hinweg gedacht. Das ist für uns der
+	Europäische Geist, der in der jungen Geschichte der europäischen Einigung für viele Menschen
+	immer selbstverständlicher geworden ist. !YES ist eine Partei, die nicht nur für junge Menschen steht.
+	!YES ist eine Partei für jeden, der die Europäische Union mit frischen Ideen stärken möchte. Und sich
+	nicht nach altem Nationalismus sehnt.
+</p>

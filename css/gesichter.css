@@ -1,0 +1,6 @@
+.gesichter  > img{
+	width:200px;
+	float: right;
+	margin-right: 15%;
+	transform: translate(0, -30%);
+}
