@@ -226,3 +226,16 @@ label{
 	margin: 0 auto;
 }
 
+
+.footerlink {
+	text-decoration: none;
+	margin: 20px 5%;
+}
+
+#footer {
+	margin: 0 auto;
+}
+
+.footerlink:hover {
+	color:#6F6A6A;
+}
