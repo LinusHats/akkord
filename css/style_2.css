@@ -70,10 +70,10 @@ nav {
 	margin: 0;
 	
 }
-
 .navbar a {
 	justify-content: center;
 	align-items: center;
+	color: #fff;
 }
 
 .navbar, .navbar-brand, .navbar-nav, .navbar-expand-lg {
@@ -83,13 +83,15 @@ nav {
 .navbar-brand {
 	display: flex;
 }
-
-.nav-pills .nav-link.active{
+.navbar-dark .navbar-nav .nav-link {
+	color:#fff;
+	font-size: 18px;
+}
+.nav-link.active{
 	background-color: #312682;
 	border-radius: 0;
 	color: #fff;
 }
-
 
 #headerImage {
 	width: 100%;
