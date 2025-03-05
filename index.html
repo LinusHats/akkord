@@ -1,141 +1,89 @@
 <!DOCTYPE html>
-<html lang='de'>
-	<head>
-		 <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">    
-	<title>Akkordeon Harmonists</title>
-		<!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/style_1.css">   -->
-    <!-- Animate -->
-	<link href="css/animate.css" rel="stylesheet" />
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Akkordeon Harmonists</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style_2.css">
+  <!-- LiveReload (development only) -->
+  <script>
+    document.write('<script src="http://' + (location.host || "localhost").split(":")[0] + ':35729/livereload.js?snipver=1"><\/script>')
+  </script>
+</head>
+<body>
+  <header>
+    <!-- Navbar loaded dynamically -->
+    <div id="navbar-placeholder"></div>
+    <!-- Optional header image (only on large screens) -->
+    <div class="container-fluid d-none d-lg-block">
+      <div class="row">
+        <div class="col-12">
+          <a href="index.html">
+            <img id="headerImage" src="img/indexheader.png" alt="Akkordeon Harmonists während eines Konzertes" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-    <!-- css -->
-    <!-- <link rel="stylesheet" href="css/style_1.css">  -->
-    <link rel="stylesheet" type="text/css" href="css/style_2.css">  
+  <main>
+    <!-- Willkommen Section -->
+    <section class="primm" id="willkommen">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="wow fadeInUp" data-wow-delay="0.2s">Willkommen auf unserer Website</h2>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">
+              Die <strong>Akkordeon Harmonists</strong> der Musikschule Greven, Emsdetten, Saerbeck stellen sich vor.
+            </p>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">
+              Wir wollen die Vielseitigkeit der Akkordeonmusik zeigen. Unter der Leitung von <strong>Dragan Ribic</strong>
+              präsentieren wir ein breites Spektrum anspruchsvoller Akkordeonliteratur sowie moderner und dynamischer Stücke.
+            </p>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">
+              Das Repertoire erstreckt sich von Tangomusik über klassische Arrangements bis zu Originalkompositionen – auch Rock, Pop und Schlager finden ihren Platz.
+            </p>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">
+              Mindestens einmal jährlich bringen wir das Erarbeitete in einem Konzert zu Gehör, zusätzlich zu Auftritten bei Stadt- oder Vereinsfesten.
+            </p>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">
+              Unser Orchester besteht vorwiegend aus Akkordeons, aufgeteilt in vier Stimmen plus Bassakkordeon. Unterstützt werden wir durch unseren Schlagzeuger.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Mitmachen Section -->
+    <section class="secc" id="mitmachen">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="wow fadeInUp" data-wow-delay="0.3s">Das klingt großartig, ich würde gerne mitmachen!</h2>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">
+              Warst du bei einem unserer Konzerte und möchtest beim nächsten Mal lieber mit uns auf der Bühne stehen als nur zuzuhören? Melde dich per E-Mail und komm zu einer Probe – wir freuen uns auf dich!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-	<!-- LiveReload -->
-	<script>
-		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-	</script>
-	</head>
-	<header>
-		<!-- Navigation -->
-		<div class="navbar navbar-expand-lg">
-			<div class="col-12">
-				<nav class="navbar navbar-dark">
-				<a class="navbar navbar-brand" href="#">
-					<img src="img/Frame 1.png" alt="Logo" height="50px">  <!-- TODO: New Logo, svg -->
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-    			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      				<div class="navbar-nav">
-						<a class="nav-link active" aria-current="page" href="index.html">Über Uns</a>
-						<a href="de/mitmachen.html" class="nav-link">Mitmachen</a>
-						<a href="de/termine.html" class="nav-link">Termine</a>
-						<!-- <a href="de/presse.html" class="nav-link">Presse</a> -->
-						<a href="de/repertoire.html" class="nav-link">Repertoire</a>
-						<a href="de/galerie.html" class="nav-link">Galerie</a>
-						<a href="de/kontakt.html" class="nav-link">Kontakt</a>
-					</div>
-				</div>	
-			</div>
-		</div>
+  <!-- Footer loaded dynamically -->
+  <div id="footer-placeholder"></div>
 
-		<div class="container-fluid">
-			<div class="col-md-12 wow fadeInUp"  data-wow-delay="0.1s">
-					<a href="index.html">
-						<img id="headerImage" src="img/indexheader.png" alt="Photo der Akkordeon Harmonists während eines Konzertes">
-					</a>
-				</div>  
-		</div>
-	</header>
-
-
-	<body>
-		<!-- Dokumentinhalt -->
-		<!-- Junge Revolution -->
-		<section class="primm" id="willkommen">
-			<div class="container-fluid">
-				<div class="col-md-12">
-				<!-- <h2>Die Europäische Union BRaucht eine Junge Revolution!</h2> -->
-				<h2 class="wow fadeInUp" data-wow-delay="0.2s">
-					Willkommen auf unserer Website
-				</h2>
-
-				<p class="wow fadeInUp" data-wow-delay="0.4s">
-					Die <strong>Akkordeon Harmonists</strong> der Musikschule Greven, Emsdetten, Saerbeck stellen sich vor.
-				</p>
-				<p class="wow fadeInUp" data-wow-delay="0.4s">
-					Wir wollen die Vielseitigkeit der Akkordeonmusik zeigen. Unter der Leitung von <strong>Dragan Ribic</strong> präsentieren wir ein breites Spektrum anspruchsvoller Akkordeonliteratur sowie moderner und dynamischer Stücke. Dabei beeindruckt eine breite Klangpalette, die wir mit unseren Instrumenten auf die Bühne zaubern.
-				</p>
-				<p class="wow fadeInUp" data-wow-delay="0.4s">	
-					Das breite Repertoire des Orchesters erstreckt sich von Tangomusik über klassische Arrangements bis hin zu Originalkompositionen speziell für das Akkordeon aber auch Stücke aus Rock, Pop und Schlager werden gespielt.
-				</p>
-				<p class="wow fadeInUp" data-wow-delay="0.4s">	
-					Mindestens einmal jährlich bringen wir das Erarbeitete in einem Konzert zu Gehör. Dazu kommen Auftritte bei Stadt- oder Vereinsfesten.
-				</p>
-				<p class="wow fadeInUp" data-wow-delay="0.4s">	
-					Unser Orchester besteht vorwiegend aus Akkordeons, die in vier Stimmen sowie dem Bassakkordeon aufgeteilt sind. Tatkräftig unterstützt werden wir durch unseren Schlagzeuger.
-					(Infos zu Dragan Ribic – link zu seinem Internetauftritt)
-				</p>
-				</div>
-			</div>
-		</section>
-
-	
-		<!-- mitmachen -->
-		<section class='secc' id="mitmachen">
-			<div class="container-fluid">
-				<div class="col-md-12">
-					<h2 class="wow fadeInUp" data-wow-delay="0.3s">
-						Das klingt großartig, ich würde gerne mitmachen!
-					</h2>
-
-					<p class="wow fadeInUp" data-wow-delay="0.4s">
-						Findest du unsere Beschreibung interessant? 
-						Warst du bei einem unserer Konzerte und möchtest beim nächsten Mal lieber mit uns auf der Bühne stehen, 
-						anstatt nur zuzuhören? 
-						Wir freuen uns über neue Mitspielerinnen und Mitspieler. 
-						Ob du bereits Orchestererfahrung hast oder nicht, 
-						spielt keine zwingende Rolle. Wenn du Interesse hast, 
-						melde dich einfach per E-Mail bei uns und komm zu einer Probe vorbei! 
-						Wir freuen uns darauf, dich kennenzulernen!
-					</p>
-				</div>
-			</div>
-		</section>
-
-		
-
-
-
-	<!-- Jquery, popper,bootstrap -->
-	<script src="js/jquery.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	<!-- animate -->		     
-	<script src="js/animation.js"></script>
-
-	</body>
-	<footer>
-		<div class="container-fluid">
-			<div class="row">
-			<div class="col-md-12" id="footer">
-					<a class="footer footerlink"
-						href="./de/kontakt.html">
-						Impressum
-					</a>
-					<a class="footer footerlink"
-						href="#mitmachen"> 
-						Datenschutz
-					</a>
-				</div>
-		</div>
-	</footer>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/animation.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/include_header.js"></script>
+</body>
 </html>

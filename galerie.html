@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Akkordeon Harmonists – Galerie</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style_2.css">
+  <!-- LiveReload -->
+  <script>
+    document.write('<script src="http://' + (location.host || "localhost").split(":")[0] + ':35729/livereload.js?snipver=1"><\/script>')
+  </script>
+</head>
+<body>
+  <header>
+    <!-- Navbar loaded dynamically -->
+    <div id="navbar-placeholder"></div>
+  </header>
+
+  <main>
+    <div class="container-fluid">
+    <class="secc container-fluid" id="galerie">
+      <div class="container">
+        <!-- Lightbox/gallery grid -->
+        <div class="lightbox" data-mdb-lightbox-init>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="assets/AS_02117a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/AS_02129a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/AS_02140a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+            </div>
+            <div class="col-lg-6">
+              <img src="assets/AS_02426a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/AS_02681a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/MSC04063a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/AS_02380a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+              <img src="assets/AS_02388a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/AS_02495a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+              <img src="assets/AS_02539a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/MSC04054a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/MSC04057a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+            </div>
+            <div class="col-lg-4">
+              <img src="assets/MSC04068a.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" alt="Gallery image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/animation.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Load Header and Footer -->
+  <script src="js/include_header.js"></script>
+  <!-- Gallery reordering effect -->
+  <script>
+    $(document).ready(function(){
+      setInterval(function(){
+        var $columns = $(".lightbox .row > div");
+        var randomIndex = Math.floor(Math.random() * $columns.length);
+        var $col = $columns.eq(randomIndex);
+        $col.fadeOut(500, function(){
+          $col.appendTo($col.parent()).fadeIn(500);
+        });
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
