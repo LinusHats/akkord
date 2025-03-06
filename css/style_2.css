@@ -59,13 +59,18 @@
   /* Navbar */
   nav {
 	background-color: #6F6A6A;
+  border-radius: 5px;
   }
+.navbar {
+  margin-bottom: 5px;
+}
   .navbar a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: #fff;
   }
+
   .navbar-dark .navbar-nav .nav-link {
 	font-size: 18px;
 	padding: 0.5rem 1rem;
@@ -85,11 +90,14 @@
   #headerImage {
 	width: 100%;
 	height: auto;
+  border-radius: 5px;
   }
   
   /* Sections */
   .primm, .secc {
 	padding: 70px 0;
+  margin: 15px 15px;
+  border-radius: 5px;
   }
   .primm {
 	background-color: #fff;
@@ -109,12 +117,14 @@
 	background-color: #312682;
 	color: #fff;
 	border-color: #312682;
+  border-radius: 5px:
   }
   .btn-primary:hover {
 	background-color: #fff;
 	color: #312682;
 	border-width: 2px;
 	border-radius: 5%;
+  border-radius: 5px;
   }
   
   /* Footer */
@@ -141,6 +151,7 @@
 	text-align: center;
 	width: 40%;
 	padding: 10px;
+  border-radius: 5px;
   }
   
   /* Termine Poster */
@@ -157,6 +168,7 @@
   #repertoireList {
 	max-width: 720px;
 	margin: 0 auto;
+  border-radius: 5px;
   }
   
   /* Footer Links */
