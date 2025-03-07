@@ -88,10 +88,10 @@
         var $columns = $(".lightbox .row > div");
         var randomIndex = Math.floor(Math.random() * $columns.length);
         var $col = $columns.eq(randomIndex);
-        $col.fadeOut(500, function(){
-          $col.appendTo($col.parent()).fadeIn(500);
+        $col.fadeOut(1000, function(){
+          $col.appendTo($col.parent()).fadeIn(1000);
         });
-      }, 3000);
+      }, 10000);
     });
   </script>
 </body>

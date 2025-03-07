@@ -9,7 +9,7 @@
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
-	background-color: #fff;
+	background-color: #FFF;
   }
   
   /* Headings */
@@ -19,13 +19,13 @@
 	color: #000;
   }
   h1 {
-	font-size: 2.8rem;
-	letter-spacing: 0.3rem;
+	font-size: 2.5rem;
+	letter-spacing: 0.2rem;
 	font-weight: 700;
   }
   h2 {
-	font-size: 43px;
-	letter-spacing: 0.25rem;
+	font-size: 36px;
+	letter-spacing: 0.15rem;
 	font-weight: 700;
   }
   h3 {
@@ -58,31 +58,36 @@
   
   /* Navbar */
   nav {
-	background-color: #6F6A6A;
+	background-color: #FFF;
   border-radius: 5px;
   }
 .navbar {
   margin-bottom: 5px;
 }
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#312682' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
   .navbar a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #fff;
+	color: #312682;
   }
 
   .navbar-dark .navbar-nav .nav-link {
 	font-size: 18px;
 	padding: 0.5rem 1rem;
-  color: #fff;
+  color: #312682;
+  font-weight: 600;
   }
   .navbar-dark .navbar-nav .nav-link:hover {
     font-family: 700 'Inter', sans-serif;
+    color:#6A6A6A;
   }
 
   .navbar-nav .nav-link.active {
 	background-color: #312682;
-	color: #fff;
+	color: #6A6A6A;
 	border-radius: 5px;
   }
   
@@ -91,11 +96,12 @@
 	width: 100%;
 	height: auto;
   border-radius: 5px;
+  border-top: 5px solid #312682;
   }
   
   /* Sections */
   .primm, .secc {
-	padding: 70px 0;
+	padding: 15px 0;
   margin: 15px 15px;
   border-radius: 5px;
   }
@@ -149,9 +155,19 @@
 	max-width: 720px;
 	margin: 0 auto;
 	text-align: center;
-	width: 40%;
+	width: 70%;
 	padding: 10px;
   border-radius: 5px;
+  }
+
+  #kontakt-mail {
+    color:#fff;
+    font-weight: 700;
+  }
+  #kontakt-mail:hover {
+    color:#fff;
+    font-weight: 800;
+    text-decoration: underline;
   }
   
   /* Termine Poster */
@@ -162,6 +178,16 @@
   }
   .terminePoster > img {
 	width: 75%;
+  }
+
+
+
+  .year-above-poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
   }
   
   /* Utility for Repertoire List */
