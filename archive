@@ -44,27 +44,6 @@
           <div class="col-12">
             <h2 class="wow fadeInUp" data-wow-delay="0.2s">Einige Titel aus unseren letzten Konzerten:</h2>
             <ul class="wow fadeInUp" data-wow-delay="0.4s" id="repertoireList">
-              <li>Air (Johann Sebastian Bach)</li>
-              <li>Boogie-Woogie-Fever (Renato Bui)</li>
-              <li>Chiquilin de Bachin (Astor Piazzolla)</li>
-              <li>Concerto d’amore (Jacob de Haan)</li>
-              <li>Dalmatinische Tänze (Adolf Götz)</li>
-              <li>Danza Kuduro (Landron-Rivera, F. Toigo)</li>
-              <li>El Choclo (A.G. Villoldo)</li>
-              <li>Espana Cani Pascual Marquina Narro</li>
-              <li>Finlandia (Jean Sibelius)</li>
-              <li>Gabriella’s Song (Stefan Nilsson)</li>
-              <li>Intermezzo sinfonico (Pietro Mascagni)</li>
-              <li>Irische Suite (Matyas Seiber)</li>
-              <li>Jumpin’ at the Woodside (Count Basie)</li>
-              <li>La Storia (Jacob de Haan)</li>
-              <li>Little Brown Jug (R.A. Eastburn)</li>
-              <li>Mein kleiner grüner Kaktus (Bert Reisfeld)</li>
-              <li>Pageant (Janusz Wojtarowicz)</li>
-              <li>Por una cabeza (Carlos Gardel)</li>
-              <li>Revirado (Astor Piazzolla)</li>
-              <li>Sinfonia in B-Dur (Johann Christian Bach)</li>
-              <li>Tango pour Claude (Richard Galliano)</li>
               <li>The Blues Factory (Jacob de Haan)</li>
               <li>Tiger Rag (Original Dixieland Jazz Band)</li>
               <li>Variazioni in blue (Jacob de Haan)</li>
